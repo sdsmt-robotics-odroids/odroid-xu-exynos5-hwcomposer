@@ -1,0 +1,10 @@
+--- a/tools/Makefile.am	2015-04-05 02:07:39.762958123 -0700
++++ b/tools/Makefile.am	2015-04-05 02:06:29.123641648 -0700
+@@ -13,6 +13,6 @@
+ 	      -I$(top_srcdir)/src/system/core/include
+ 
+ AM_LDFLAGS = -fPIC \
+-              -L$(top_builddir)/src/.libs -lpthread -lhwcomposer
++              -L$(top_builddir)/src/.libs -static -lpthread -lhwcomposer
+  
+ exynos5_hwcomposer_SOURCES = exynos5-hwcomposer.cpp

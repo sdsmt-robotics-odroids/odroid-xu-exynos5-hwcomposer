@@ -1,0 +1,1 @@
+KERNEL=="fb0",SUBSYSTEM=="graphics",KERNELS=="exynos5-fb.1",DRIVERS=="s3c-fb",TAG+="systemd",ENV{SYSTEMD_WANTS}="exynos5-hwcomposer.service"

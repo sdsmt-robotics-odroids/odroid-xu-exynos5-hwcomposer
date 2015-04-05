@@ -1,0 +1,6 @@
+[Unit]
+Description=Exynos5 hwcomposer
+BindsTo=dev-fb0.device
+
+[Service]
+ExecStart=/usr/sbin/exynos5-hwcomposer
